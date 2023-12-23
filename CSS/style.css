@@ -1,0 +1,55 @@
+h1{
+    /* r g b */
+    /* 0-9 -> a->f */
+    /* color: #ff0000 */
+    /* 0->255 */
+    color: rgb(255,0,0);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+/* universal selector */
+*{
+    color: green;
+    text-align: center;
+
+}
+/* tag selector / element selector */
+h2{
+    color: red;
+    text-align: center;
+}
+/* attribute selector */
+a[title="google"] {
+    color: red;
+    text-decoration: none;
+}
+/* id selector */
+#idselector{
+    color: brown;
+    line-height: 30px;
+    letter-spacing: 20px;
+    text-indent: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* class selector */
+.classselector{
+    color: red;
+    word-spacing: 30px;
+    font-size: 24px;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+/* desc selector */
+.desc a{
+    color: red;
+}
+
+/* child selector */
+
+.child>a{
+    color: red;
+}
