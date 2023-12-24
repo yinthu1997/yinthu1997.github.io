@@ -12,7 +12,8 @@ h1{
 /* universal selector */
 *{
     color: green;
-    text-align: center;
+
+    /* text-align: center; */
 
 }
 /* tag selector / element selector */
@@ -52,4 +53,32 @@ a[title="google"] {
 
 .child>a{
     color: red;
+}
+
+/* Pseudo  */
+
+a:link{
+    color: red;
+    letter-spacing: 5px;
+
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+
+/* Target */
+
+:target{
+    color: red;
+    border: 1px solid black;
+    letter-spacing: 10px;
 }
